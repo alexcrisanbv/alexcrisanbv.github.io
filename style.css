@@ -1,0 +1,132 @@
+body{
+	background-color: black;
+	color: white;
+
+
+}
+
+.navbar-brand{
+	font-family: 'RocknRoll One', sans-serif;
+	
+
+}
+
+.nav-link{
+	font-family: 'RocknRoll One', sans-serif;
+}
+
+li a{
+	margin: 20px ; 
+	display: inline-block;
+	justify-content: center;
+
+
+	color: yellow;
+	
+}
+
+li a:hover{
+	background-color: yellow;
+	color: black;
+}
+
+ul{
+	list-style-type: none;
+}
+
+
+
+.apel{
+
+	text-align: center;
+	width: 400px;
+    border: 10px  dashed red;
+    padding: 10px;
+    margin: 20px auto ;
+    color: white;
+}
+
+
+
+.interventie{
+	margin: 20px auto;
+	text-align: center;
+	color: white;
+}
+
+.nonstop{
+	background-color: yellow;
+	text-decoration-color: red;
+	color: red;
+
+}
+
+h1 a:hover{
+	color: red;
+}
+
+.btn-warning{
+	background-color: yellow;
+	width: 180px;
+	height: 60px;
+
+
+}
+
+.btn-apel{
+	font-size: xx-large;
+}
+
+.linie{
+	border: 1px solid black;
+	
+}
+
+.whitebg {
+    background: #fff;
+    height: 100%;
+    padding-top: 20px;
+}
+
+.banner{
+	margin: 10px auto;
+	height: 256px;
+	width: 1024px;
+	display: flex;
+	justify-content: center;
+}
+
+.blink_me {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {  
+  50% { opacity: 0; }
+}
+
+.servicii{
+	font-family: 'RocknRoll One', sans-serif;
+	text-align: center;
+	margin: 10px auto;
+	text-decoration: underline;
+
+
+}
+
+.container2{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	border: solid 2px yellow;
+	border-radius: 20px;
+	margin: 20px auto;
+	max-width: 1024px;
+	min-width: 360px;
+	text-align: center;
+	
+}
+
+h2 .container{
+	display: inline-block
+}
+
