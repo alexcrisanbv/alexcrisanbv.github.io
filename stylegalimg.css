@@ -26,9 +26,15 @@ body {
 div>img{
 	width: 450px;
 	height: 300px;
-	margin: 10px;
+	margin: 10px auto;
+	transition: all 1s;
 
+}
 	
+
+img:hover{
+	transition: all 600ms;
+	transform: scale(1.1);
 }
 
 .container {
@@ -37,15 +43,14 @@ div>img{
 	justify-content: center;
 	border: solid 2px yellow;
 	border-radius: 20px;
-	margin: 20px auto;
+	margin: 10px auto;
 	
 
 }
 
 .banner{
-	margin: 10px auto;
-	height: 256px;
-	width: 1024px;
+	max-width: 100%;
+  	height: auto;
 	display: flex;
 	justify-content: center;
 }
